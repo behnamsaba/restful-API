@@ -1,0 +1,43 @@
+
+body {
+  text-align: center;
+  background-color: teal;
+}
+
+
+
+li{background-color: #f2f2f2;
+height: 50px;}
+li:hover {background-color: salmon;}
+
+
+label{
+  color:purple;
+  display: block;
+  font-weight: bolder;
+
+}
+
+form{
+  padding: 20px;
+}
+
+button{
+  display:block;
+  margin:50px auto;
+  color:azure;
+  background-color: #34a1eb;
+  font-family:"Roboto", sans-serif;
+  border-radius: 5%;
+  border-color: #34a1eb;
+  transition:all 0.2s;
+
+}
+
+
+button:hover{
+  background-color: #175b8a;
+  border-color: #175b8a;
+  outline: none;
+  cursor: pointer;
+}
